@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8eb4ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgb(117, 158, 192);
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.converter input, .converter select, .converter button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.output {
+    margin-top: 20px;
+}
+
+.output p {
+    font-size: 18px;
+    margin: 5px 0;
+}
